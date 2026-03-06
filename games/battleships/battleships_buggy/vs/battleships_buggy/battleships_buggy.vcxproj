@@ -102,7 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\..</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..;$(ProjectDir)..\..\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,15 +128,16 @@
     <ClCompile Include="..\..\src\cli\ConsoleRenderer.cpp" />
     <ClCompile Include="..\..\src\cli\Input.cpp" />
     <ClCompile Include="..\..\src\core\Board.cpp" />
+    <ClCompile Include="..\..\src\core\Coord.cpp" />
     <ClCompile Include="..\..\src\core\Game.cpp" />
     <ClCompile Include="..\..\src\core\Ship.cpp" />
-    <ClCompile Include="battleships_buggy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\cli\ConsoleRenderer.h" />
     <ClInclude Include="..\..\src\cli\Input.h" />
     <ClInclude Include="..\..\src\core\Board.h" />
     <ClInclude Include="..\..\src\core\Coord.h" />
+    <ClInclude Include="..\..\src\core\Enums.h" />
     <ClInclude Include="..\..\src\core\Game.h" />
     <ClInclude Include="..\..\src\core\Ship.h" />
   </ItemGroup>
