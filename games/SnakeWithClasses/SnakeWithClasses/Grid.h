@@ -1,6 +1,6 @@
 #pragma once
 #include <vector>
-#include "Vec2.h"
+#include "Position.h"
 #include <string>
 
 class Grid
@@ -11,12 +11,12 @@ public:
 	int Width() const { return m_width; }
 	int Height() const { return m_height; }
 
-	bool InBounds(Vec2 p) const;
-	int ToIndex(Vec2 p) const;
+	bool InBounds(Position p) const;
+	int ToIndex(Position p) const;
 
 	void Clear(); // grid.Clear();
-	void SetCell(Vec2 p, char c);
-	char GetCell(Vec2 p) const;
+	void SetCell(Position p, char c);
+	char GetCell(Position p) const;
 
 	// Render to a string
 	std::string ToString() const; // std::cout << grid.ToString

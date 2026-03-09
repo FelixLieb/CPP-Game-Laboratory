@@ -30,6 +30,9 @@
     <ClCompile Include="Grid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -44,10 +47,13 @@
     <ClInclude Include="Grid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Vec2.h">
+    <ClInclude Include="Position.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Direction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -127,6 +127,7 @@
     <ClCompile Include="Grid.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ScoreManager.cpp" />
     <ClCompile Include="Snake.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -134,8 +135,9 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Grid.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="ScoreManager.h" />
     <ClInclude Include="Snake.h" />
-    <ClInclude Include="Vec2.h" />
+    <ClInclude Include="Position.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
